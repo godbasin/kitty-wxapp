@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container" style="font-family: '微软雅黑';">
+  <view  bindtap="bindViewTap" class="userinfo">
+  <text style="display:block; text-align:center;line-height: 50px;font-size: 20px;">吸猫大法</text>
+  <image src="{{url}}" mode="aspectFit" lazy-load="true"></image>
+  </view>
+  <view class="usermotto">
+    <button type="primary" bindtap="refresh">再来再来</button>
+    <!-- <button bindtap="refresh" bindtap="save">保存图片</button> -->
+  </view>
+  <view style="margin-top: 20rpx;">
+    <navigator url="/pages/upload/index" style="display: inline-block;font-size: 16px;color: #666;">上传猫图</navigator>
+    <text style="display: inline-block;font-size: 14px;margin: 0 20rpx;color: #666;"> | </text>
+    <navigator url="/pages/read/index" style="display: inline-block;font-size: 16px;color: #666;">我们的猫图</navigator>
+  </view>
+</view>

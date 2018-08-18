@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container" style="font-family: '微软雅黑';">
+  <view bindtap="bindViewTap" class="userinfo">
+  <image src="{{url}}" mode="aspectFit"></image>
+  </view>
+  <view class="usermotto">
+    <button type="primary" bindtap="upload">上传猫图</button>
+  </view>
+  <view style="margin-top: 20rpx;">
+    <navigator url="/pages/mine/index" style="display: inline-block;font-size: 16px;color: #666;">我的猫图</navigator>
+    <text style="display: inline-block;font-size: 14px;margin: 0 20rpx;color: #666;"> | </text>
+    <navigator url="/pages/read/index" style="display: inline-block;font-size: 16px;color: #666;">我们的猫图</navigator>
+  </view>
+</view>

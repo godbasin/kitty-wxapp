@@ -1,0 +1,23 @@
+<!-- index.wxml -->
+<view class="container" style="font-family: '微软雅黑';padding-top: 0;">
+  <view>
+    <text style="display:block; text-align:center;line-height: 80px;font-size: 20px;">我的猫图</text>
+    <view wx:for="{{kittyList}}" wx:key="index" wx:for-item="item" style="margin-bottom: 40rpx;">
+      <view>
+        <image src="{{item.url}}" mode="aspectFit"></image>
+      </view>
+      <text style="text-align:center;display:block;line-height: 20px;font-size: 16px;">
+        {{item.date}}
+      </text>
+    </view>
+  </view>
+  <view style="margin-top: 20rpx;">
+    <navigator url="/pages/upload/index" style="display: inline-block;font-size: 16px;color: #666;">
+      上传猫图
+    </navigator>
+    <text style="display: inline-block;font-size: 14px;margin: 0 20rpx;color: #666;">|</text>
+    <navigator url="/pages/read/index" style="display: inline-block;font-size: 16px;color: #666;">
+      我们的猫图
+    </navigator>
+  </view>
+</view>
