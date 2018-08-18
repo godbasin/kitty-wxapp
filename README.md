@@ -7,7 +7,7 @@
 - 上传猫图
 - 我们的猫图
 
-##小程序体验
+## 小程序体验
 ![image](https://github.com/godbasin/kitty-wxapp/blob/master/assets/logo.jpg)
 
 ## 小程序云开发
