@@ -8,7 +8,7 @@
 - 我们的猫图
 
 ##小程序体验
-[image](https://github.com/godbasin/kitty-wxapp/blob/master/assets/logo.jpg)
+![image](https://github.com/godbasin/kitty-wxapp/blob/master/assets/logo.jpg)
 
 ## 小程序云开发
 
