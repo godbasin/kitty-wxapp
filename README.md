@@ -13,3 +13,4 @@
 ## 小程序云开发
 
 - [小程序云开发说明文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+- [《认识小程序云开发》](https://godbasin.github.io/2018/08/18/wxapp-cloud/)
